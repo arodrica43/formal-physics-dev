@@ -1,0 +1,3 @@
+name: cubical-codespace-demo
+include: src
+depend: cubical
