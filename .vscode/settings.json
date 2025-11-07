@@ -1,0 +1,5 @@
+{
+  "agda.agdaPath": "/home/vscode/.cabal/bin/agda",
+  "editor.formatOnSave": false,
+  "files.trimTrailingWhitespace": true
+}
