@@ -1,12 +1,7 @@
 {
-  "name": "Cubical Agda Codespace",
+  "name": "Cubical Agda Codespace (Fixed)",
   "build": {
-    "dockerfile": "Dockerfile",
-    "args": {
-      "USERNAME": "vscode",
-      "GHC_VERSION": "9.4.8",
-      "CABAL_VERSION": "3.10.2.0"
-    }
+    "dockerfile": "Dockerfile"
   },
   "remoteUser": "vscode",
   "postCreateCommand": "bash scripts/verify.sh",
@@ -17,15 +12,11 @@
         "justusadam.language-haskell"
       ],
       "settings": {
-        "agda.agdaPath": "/home/vscode/.cabal/bin/agda",
-        "agda.trace.server": "messages",
+        "agda.agdaPath": "/usr/local/bin/agda",
         "files.associations": {
           "*.agda": "agda"
         }
       }
     }
-  },
-  "features": {},
-  "updateContentCommand": "",
-  "forwardPorts": []
+  }
 }
